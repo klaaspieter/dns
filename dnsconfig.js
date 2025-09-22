@@ -17,7 +17,6 @@ D(
   DnsProvider(DPS_GANDI),
   DefaultTTL(300),
   SHARED_RECORDS,
-  A("coolify", "91.99.116.152"),
   A("test", "91.99.116.152"),
   A("www", "185.199.111.153"),
 
