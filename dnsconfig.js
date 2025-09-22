@@ -24,6 +24,7 @@ D(
   CNAME("fm1._domainkey", "fm1.annema.me.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.annema.me.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.annema.me.dkim.fmhosted.com."),
+  TXT("_dmarc", "v=DMARC1; p=none;"),
 
   // Home Assistant
   CNAME("home", "goxsf792guxzyy0ugkgrinr29bqbcfcy.ui.nabu.casa."),
@@ -41,11 +42,6 @@ D(
   // haveibeenpwned.com
   TXT("@", "have-i-been-pwned-verification=477e35fb82ee40a7ee8bb53b27c36c94"),
 
-  TXT(
-    "_dmarc",
-    '"v=DMARC1;  p=none; rua=mailto:d2ec14195c8044439a04e28b2d8efb62@dmarc-reports.cloudflare.net"',
-  ),
-
   // keybase.io
   TXT(
     "_keybase",
@@ -62,6 +58,7 @@ D(
   CNAME("fm1._domainkey", "fm1.imme.nyc.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.imme.nyc.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.imme.nyc.dkim.fmhosted.com."),
+  TXT("_dmarc", "v=DMARC1; p=none;"),
 );
 
 D(
@@ -73,4 +70,5 @@ D(
   CNAME("fm1._domainkey", "fm1.annema.nyc.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.annema.nyc.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.annema.nyc.dkim.fmhosted.com."),
+  TXT("_dmarc", "v=DMARC1; p=none;"),
 );
