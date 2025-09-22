@@ -32,9 +32,6 @@ D(
     "_acme-challenge.goxsf792guxzyy0ugkgrinr29bqbcfcy.ui.nabu.casa.",
   ),
 
-  // hey.com
-  TXT("@", "hey-verification:ao9ZVSWSAQadQo4W4TNw9eRp"),
-
   // Google
   TXT(
     "@",
