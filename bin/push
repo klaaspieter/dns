@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dnscontrol push --creds '!op inject -i creds.json.tpl'

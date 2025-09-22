@@ -8,16 +8,10 @@ Install [DNSControl](https://docs.dnscontrol.org/getting-started/getting-started
 
 ## Usage
 
-Validate configuration:
-
-```sh
-dnscontrol check
-```
-
 Preview changes:
 
 ```sh
-dnscontrol preview
+./bin/preview
 ```
 
 Deploy changes:
@@ -26,5 +20,5 @@ Deploy changes:
 > After careful review!
 
 ```sh
-dnscontrol push
+./bin/push
 ```
