@@ -16,7 +16,7 @@ Preview changes:
 
 Deploy changes:
 
-> [!NOTICE]
+> [!CAUTION]
 > After careful review!
 
 ```sh
