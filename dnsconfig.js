@@ -2,10 +2,12 @@ var DPS_GANDI = NewDnsProvider("gandi");
 var REG_GANDI = NewRegistrar("gandi");
 
 var SHARED_RECORDS = [
-  A("@", "185.199.111.153"),
-  A("@", "185.199.110.153"),
-  A("@", "185.199.109.153"),
-  A("@", "185.199.108.153"),
+  A("@", "91.99.116.152"),
+  A("www", "91.99.116.152"),
+
+  AAAA("@", "2a01:4f8:c17:6baf::"),
+  AAAA("www", "2a01:4f8:c17:6baf::"),
+
   MX("@", 10, "in1-smtp.messagingengine.com."),
   MX("@", 20, "in2-smtp.messagingengine.com."),
   TXT("@", "v=spf1 include:spf.messagingengine.com ?all"),
@@ -17,8 +19,6 @@ D(
   DnsProvider(DPS_GANDI),
   DefaultTTL(300),
   SHARED_RECORDS,
-  A("test", "91.99.116.152"),
-  A("www", "185.199.111.153"),
 
   // Fastmail
   CNAME("fm1._domainkey", "fm1.annema.me.dkim.fmhosted.com."),
