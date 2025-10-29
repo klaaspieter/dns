@@ -26,7 +26,7 @@ D(
   CNAME("fm1._domainkey", "fm1.annema.me.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.annema.me.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.annema.me.dkim.fmhosted.com."),
-  TXT("_dmarc", "v=DMARC1; p=none;"),
+  TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@annema.me"),
 
   // Home Assistant
   CNAME("home", "goxsf792guxzyy0ugkgrinr29bqbcfcy.ui.nabu.casa."),
@@ -60,7 +60,7 @@ D(
   CNAME("fm1._domainkey", "fm1.imme.nyc.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.imme.nyc.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.imme.nyc.dkim.fmhosted.com."),
-  TXT("_dmarc", "v=DMARC1; p=none;"),
+  TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@imme.nyc"),
 );
 
 D(
@@ -72,5 +72,5 @@ D(
   CNAME("fm1._domainkey", "fm1.annema.nyc.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.annema.nyc.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.annema.nyc.dkim.fmhosted.com."),
-  TXT("_dmarc", "v=DMARC1; p=none;"),
+  TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@annema.nyc"),
 );
