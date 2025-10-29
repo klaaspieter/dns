@@ -8,6 +8,8 @@ var SHARED_RECORDS = [
   AAAA("@", "2a01:4f8:c17:6baf::1"),
   AAAA("www", "2a01:4f8:c17:6baf::1"),
 
+  CAA("@", "issue", "letsencrypt.org"),
+
   MX("@", 10, "in1-smtp.messagingengine.com."),
   MX("@", 20, "in2-smtp.messagingengine.com."),
   TXT("@", "v=spf1 include:spf.messagingengine.com ?all"),
