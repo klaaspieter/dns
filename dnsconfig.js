@@ -12,7 +12,7 @@ var SHARED_RECORDS = [
 
   MX("@", 10, "in1-smtp.messagingengine.com."),
   MX("@", 20, "in2-smtp.messagingengine.com."),
-  TXT("@", "v=spf1 include:spf.messagingengine.com ?all"),
+  TXT("@", "v=spf1 include:spf.messagingengine.com ~all"),
 ];
 
 D(
