@@ -5,8 +5,8 @@ var SHARED_RECORDS = [
   A("@", "91.99.116.152"),
   A("www", "91.99.116.152"),
 
-  AAAA("@", "2a01:4f8:c17:6baf::"),
-  AAAA("www", "2a01:4f8:c17:6baf::"),
+  AAAA("@", "2a01:4f8:c17:6baf::1"),
+  AAAA("www", "2a01:4f8:c17:6baf::1"),
 
   MX("@", 10, "in1-smtp.messagingengine.com."),
   MX("@", 20, "in2-smtp.messagingengine.com."),
