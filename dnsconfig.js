@@ -28,7 +28,7 @@ D(
   CNAME("fm3._domainkey", "fm3.annema.me.dkim.fmhosted.com."),
   TXT(
     "_dmarc",
-    "v=DMARC1; p=none; pct=100; rua=mailto:re+u9bhhyu5khe@dmarc.postmarkapp.com; sp=none; aspf=r;",
+    "v=DMARC1; p=quarantine; pct=100; rua=mailto:re+u9bhhyu5khe@dmarc.postmarkapp.com; sp=quarantine; aspf=r;",
   ),
 
   // Home Assistant
