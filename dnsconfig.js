@@ -26,7 +26,10 @@ D(
   CNAME("fm1._domainkey", "fm1.annema.me.dkim.fmhosted.com."),
   CNAME("fm2._domainkey", "fm2.annema.me.dkim.fmhosted.com."),
   CNAME("fm3._domainkey", "fm3.annema.me.dkim.fmhosted.com."),
-  TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@annema.me"),
+  TXT(
+    "_dmarc",
+    "v=DMARC1; p=none; pct=100; rua=mailto:re+u9bhhyu5khe@dmarc.postmarkapp.com; sp=none; aspf=r;",
+  ),
 
   // Home Assistant
   CNAME("home", "goxsf792guxzyy0ugkgrinr29bqbcfcy.ui.nabu.casa."),
